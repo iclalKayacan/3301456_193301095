@@ -59,7 +59,6 @@ class Burclar extends StatelessWidget {
         title: Text('Burçlar Ve Özellikleri'),
         centerTitle: true,
         backgroundColor: Colors.teal[300],
-        elevation: 0,
       ),
       body: _buildListView(context),
     );
