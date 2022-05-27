@@ -1,3 +1,5 @@
+commit başarıyla gerçekleştirildi.
+
 # yan_menu
 
 A new Flutter project.
