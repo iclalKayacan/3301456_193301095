@@ -58,12 +58,9 @@ class gezegenler extends StatelessWidget {
       body: Column(
         children: [
           Container(
-            height: MediaQuery
-                .of(context)
-                .size
-                .height * .25,
-            padding: const EdgeInsets.only(bottom: 40),
-            width: double.infinity,
+            height: 200,
+            width: 100,
+            padding: EdgeInsets.only(bottom: 40),
             child: Image.asset(gezegenResim[index]),
           ),
           Padding(
@@ -79,8 +76,7 @@ class gezegenler extends StatelessWidget {
                         fontSize: 18,
                         color: Colors.black,
                         fontWeight: FontWeight.normal,
-                        fontStyle: FontStyle.italic
-                    ),
+                        fontStyle: FontStyle.italic),
                   ),
                 )
               ],
@@ -90,5 +86,4 @@ class gezegenler extends StatelessWidget {
       ),
     );
   }
-
 }
