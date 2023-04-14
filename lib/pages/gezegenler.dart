@@ -5,9 +5,8 @@ import '../models/burc_data.dart';
 
 class gezegenler extends StatelessWidget {
   late final int index;
-  var key;
 
-  gezegenler(this.index, {this.key});
+  gezegenler(this.index);
 
   @override
   Widget build(BuildContext context) {
