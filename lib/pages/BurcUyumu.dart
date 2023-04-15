@@ -40,7 +40,6 @@ class _BurcUyumuState extends State<BurcUyumu> {
       appBar: MyAppBar(),
       body: Padding(
           padding: EdgeInsets.fromLTRB(20, 50, 20, 0),
-          child: SingleChildScrollView(
             child: Column(mainAxisSize: MainAxisSize.min, children: [
               Image.asset('assets/images/logo.png'),
               TextField(
